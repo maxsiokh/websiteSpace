@@ -1,0 +1,257 @@
+@media only screen and (max-width: 1430px) {
+    .projects__img{
+        width: 150px;
+        height: 150px;
+    }
+    .section__title{
+        font-size: 20px;
+    }
+    .video__img{
+        width: 800px;
+        height: 500px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1140px) {
+    .about__text{
+        font-size: 13px;
+        line-height: 20px;
+        width: 410px;
+    }
+    .about__img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 995px) {
+    .projects__img {
+        margin-left: 4px;
+    }
+    .video__img {
+        width: 600px;
+        height: 270px;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+     border-radius: 30px;
+    }
+    .header__inner{
+        flex-direction: column
+    }
+    .news__inner {
+        display: flex;
+        /* padding-top: 150px; */
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-content: space-around;
+    }
+    .news{
+        display: block;
+        background: url(../images/Rectangle.jpg) no-repeat, url(../images/project_back.jpg) no-repeat;
+
+    }
+    .news-item{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .news{
+        padding-top: 90px;
+    }
+    .news-item{
+        width: 400px;
+        padding-top: 20px;
+    }
+    .video__inner{
+        background-image: none;
+    }
+    .video__title {
+        color: black;
+
+    }
+    .video__suptitle {
+        color: black;
+    }
+
+}
+@media only screen and (max-width: 763px) {
+    .about__img{
+        width: 250px;
+        height: 250px;
+        padding-left: 20px;
+
+    }
+    .about__button {
+      margin-left: 3px;
+    }
+    .about__text {
+        font-size: 15px;
+        line-height: 15px;
+        width: 296px;
+    }
+    .about__title{
+        width: 378px;
+        height: 119px;
+        font-size: 20px;
+    }
+    .services__text {
+        width: 190px;
+    }
+    .about_web_title {
+        padding-left: 0;
+    }
+    .services__item {
+
+        padding-left: 4px;
+    }
+    .links {
+
+        margin-left: 5px;
+    }
+    .video__img{
+        width: 478px;
+        height: 236px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .services {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        align-content: space-around;
+    }
+
+    .about__img{
+        width: 0px;
+        height: 0px;
+
+
+    }
+    .about__buttons {
+   display: block;
+   padding-bottom: 5px;
+
+}
+.link {
+    width: 120px;
+    font-size: 10px;
+
+}
+.footer__title{
+    font-size: 12px;
+}
+}
+@media only screen and (max-width: 501px) {
+    .rectangle__inner{
+        display: block;
+    }
+    .section__title {
+        font-size: 20px;
+
+        width: 100%;
+    }
+    .video__img {
+        width: 397px;
+        height: 196px;
+    }
+    .video {
+
+        height: 467px;
+    }
+    .subcribe__input {
+        width: 354px;
+
+    }
+    .footer__inner {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+
+    .about__statistic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+}
+@media only screen and (max-width: 430px) {
+    .intro__title{
+        font-size: 30px;
+    }
+    .news-item{
+        width: 300px;
+        padding-top: 20px;
+    }
+    .about__title {
+        width: 390px;
+        padding-top: 30px;
+    }
+    .projects__title{
+        padding-bottom: 0;
+    }
+    .about__inner{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+    .about__buttons{
+display: flex;
+    }
+    .about__text{
+        line-height: none;
+    }
+    .about__web {
+         margin-top: 0px;
+    }
+    .video__img {
+        width: 277px;
+        height: 142px;
+    }
+    .services{
+        padding-top: 30px;
+    }
+    }
+
+
+@media only screen and (max-width: 395px) {
+
+
+
+    /*************** intro *****************/
+    .intro__title{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .about__statistic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: stretch
+    }
+    .about__title {
+        width: 230px;
+    }
+    .subcribe__input{
+        width: 250px;
+    }
+    .services__text {
+        width: 318px;
+    }
+
+}
